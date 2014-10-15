@@ -1,5 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 h1 {
   color: blue;
+}
+
+.title {
+  width: 100%;
 }
 
 .worklist {
@@ -9,4 +17,7 @@ h1 {
 
 .project {
   flex: 1 1 auto;
+  justify-content: space-between;
+  text-align: middle;
+  font-family: sans-serif;
 }
