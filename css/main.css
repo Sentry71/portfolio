@@ -8,10 +8,6 @@ h1, h3 {
   text-align: right;
 }
 
-a {
-  text-decoration: none;
-}
-
 .title {
   width: 100%;
 }
@@ -29,4 +25,8 @@ a {
   -webkit-flex: 0 1 auto;
   flex: 0 1 auto;
   text-align: center;
+}
+
+.logo {
+  align: left;
 }
