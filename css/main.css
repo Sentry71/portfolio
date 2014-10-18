@@ -17,14 +17,16 @@ a {
 }
 
 .worklist {
-  display: flex;
   display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
 }
 
 .project {
-  flex: 0 1 auto;
   -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-justify-content: space-between;
   justify-content: space-between;
   text-align: center;
 }
