@@ -17,6 +17,13 @@ h1, h3 {
   display: flex;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
+}
+
+.flex-header {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.flex-spacing {
   -webkit-justify-content: space-around;
   justify-content: space-around;
 }
@@ -27,6 +34,8 @@ h1, h3 {
   text-align: center;
 }
 
-.logo {
-  align: left;
+hr {
+  height: 6px;
+  background-color: #F87560;
+  border: 0;
 }
