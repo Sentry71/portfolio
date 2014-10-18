@@ -4,9 +4,7 @@ body {
   margin: auto;*/
 }
 
-h1, h2 {
-  font-family: Arial, sans-serif;
-  color: orange;
+h1, h3 {
   text-align: right;
 }
 
@@ -30,5 +28,5 @@ a {
 }
 
 .img-logo {
-  margin: auto;
+  margin: left;
 }
