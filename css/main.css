@@ -32,12 +32,7 @@ h1 {
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }
-/*
-.flex-spacing {
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
-}
-*/
+
 .flex-column {
   -webkit-flex: 0 1 auto;
   flex: 0 1 auto;
@@ -48,4 +43,9 @@ hr {
   height: 6px;
   background-color: #F87560;
   border: 0;
+}
+
+@media only screen and (max-width: 400px){
+  -webkit-justify-content: center;
+  justify-content: center;
 }
