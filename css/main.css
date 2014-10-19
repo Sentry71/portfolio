@@ -1,5 +1,6 @@
 body {
   font-family: 'Abel', sans-serif;
+  margin: 10px;
 }
 
 h1, h3 {
@@ -27,15 +28,16 @@ h1 {
   justify-content: center;
 }
 
-.flex-header {
+.flex-to-edge {
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }
+/*
 .flex-spacing {
   -webkit-justify-content: space-around;
   justify-content: space-around;
 }
-
+*/
 .flex-column {
   -webkit-flex: 0 1 auto;
   flex: 0 1 auto;
