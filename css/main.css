@@ -1,0 +1,68 @@
+/* HTML elements */
+
+body {
+  font-family: 'Abel', sans-serif;
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+h1,
+h3 {
+  text-align: right;
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 30px 10px 0 0;
+  font-size: 3.0em;
+}
+
+hr {
+  height: 6px;
+  background-color: #f87560;
+  border: 0;
+}
+
+/* flexbox rules */
+
+.flex-row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.flex-center {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.flex-to-edge {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.flex-column {
+  -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
+  text-align: center;
+}
+
+.resizable {
+  width: 100%;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 400px){
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  .flex-to-edge{
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
